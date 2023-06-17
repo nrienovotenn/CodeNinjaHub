@@ -1,0 +1,9 @@
+# Repository: CodeNinjaHub
+
+def reverse_string(string):
+    reversed_str = string[::-1]
+    return reversed_str
+
+input_str = "Hello, Code Ninjas!"
+reversed_str = reverse_string(input_str)
+print(reversed_str)
